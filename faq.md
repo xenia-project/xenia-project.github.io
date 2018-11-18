@@ -10,9 +10,7 @@ permalink: /faq/
 
 ## Can I get an exe?
 
-**NO**, not yet. Xenia is in its extremely early phases and not ready for use by
-non-developers. If you can't build it yourself using the instructions provided
-it probably means you should wait until alpha/beta/etc.
+Yes, <a href="download/">choose a download</a>.
 
 Don't be an idiot and download a binary claiming to be of this project. In fact,
 don't be an idiot and download *any* binary claiming to be an Xbox 360 or PS3
