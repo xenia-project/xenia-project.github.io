@@ -10,10 +10,7 @@ permalink: /about/
 
 ## System Requirements
 
-* Windows 8.1 or Windows 10
-* Intel Sandy Bridge or Haswell processor (supporting AVX or AVX2)
-* An OpenGL 4.5-compatible GPU (NVIDIA preferred)
-* An XInput-compatible controller
+See [here](faq/#system-requirements).
 
 ## Overview
 
