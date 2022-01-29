@@ -282,7 +282,7 @@ Aside from using the **post-processing settings menu** that can be opened by pre
     * `fsr` — use AMD FidelityFX FSR for upscaling and sharpening, or CAS when not upscaling
     * Anything else — don’t apply a scaling and sharpening filter
 * **`postprocess_ffx_cas_additional_sharpness`** — additional sharpness in CAS, higher is sharper, 0 to 1, the default value is 0
-* **`postprocess_ffx_fsr_max_upsampling_passes`** — sharpness reduction in FSR, lower is sharper, 0 to 2, the default value is 0.2
+* **`postprocess_ffx_fsr_sharpness_reduction`** — sharpness reduction in FSR, lower is sharper, 0 to 2, the default value is 0.2
 * **`postprocess_dither`** — whether to apply dithering noise to smoothen gradients
 
 While **game-specific configuration files are currently largely unsafe** as changing many of the settings while the emulator is already running is not supported — the game configuration file feature is currently in a prototype state — **specifying the post-processing options listed above in per-game configuration files is supported** explicitly (but **not the resolution scale** variables, which take effect during the initialization of the emulator).
