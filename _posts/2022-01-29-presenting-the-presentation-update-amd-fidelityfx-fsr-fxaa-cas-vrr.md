@@ -233,9 +233,9 @@ Rendering resolution scaling, though, is still a hack that games are completely 
 
 _[Halo 3 with 1x1 resolution scale, no in-game AA, extreme quality FXAA, 1152x640 upscaled to 2304x1280 and then to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_halo3_1x1.jpg)_
 
-![Halo 3 with 1x2 resolution scale, no in-game AA, extreme quality FXAA, 1152x1280 upscaled to 2304x1440 and then to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_halo3_2x1.jpg)
+![Halo 3 with 1x2 resolution scale, no in-game AA, extreme quality FXAA, 1152x1280 upscaled to 2304x1440 and then to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_halo3_1x2.jpg)
 
-_[Halo 3 with 1x2 resolution scale, no in-game AA, extreme quality FXAA, 1152x1280 upscaled to 2304x1440 and then to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_halo3_2x1.jpg)_
+_[Halo 3 with 1x2 resolution scale, no in-game AA, extreme quality FXAA, 1152x1280 upscaled to 2304x1440 and then to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_halo3_1x2.jpg)_
 
 ![Halo 3 with 2x2 resolution scale, no in-game AA, extreme quality FXAA, 2304x1280 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_halo3_2x2.jpg)
 
