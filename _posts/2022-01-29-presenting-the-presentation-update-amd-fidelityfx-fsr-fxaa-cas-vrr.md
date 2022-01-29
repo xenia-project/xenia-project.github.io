@@ -29,11 +29,11 @@ In this post, we’ll cover:
 
 ![Before — no FXAA, no FSR or CAS, no dithering](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/comparison_before.jpg)
 
-_Halo 3 on Xenia before_
+_[Halo 3 on Xenia before](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/comparison_before.jpg)_
 
 ![After — with FXAA, no FSR or CAS, no dithering](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/comparison_after.jpg)
 
-_Halo 3 with FXAA (extreme quality preset) and FSR_
+_[Halo 3 with FXAA (extreme quality preset) and FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/comparison_after.jpg)_
 
 <!--more-->
 Note that due to the download quota on AppVeyor that Xenia has been experiencing issues with lately, **the old download location is not available anymore**. Now, as of the end of January 2022, **Xenia builds are hosted as [GitHub Releases in a special repository](https://github.com/xenia-project/release-builds-windows/releases)** — thanks to our core contributor [Rick Gibbed](https://twitter.com/gibbed), the transition to the new location was quick and largely seamless. However, **the best way to update Xenia is to use the [download page on the Xenia website](/download/) which contains the most up-to-date download link**.
@@ -56,7 +56,9 @@ But since the time of the development of the Xenos GPU of the Xbox 360, a lot of
 
 The **menu where the effects can be toggled and configured** can be opened by pressing **Display → Post-processing settings** in the menu bar, or **F6** on the keyboard. Even though these effects were developed by AMD and NVIDIA, they **work on all graphics cards** being purely open-source mathematical algorithms.
 
-![Post-processing settings menu](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/settings.png)
+![The post-processing settings menu](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/settings.png)
+
+_[The post-processing settings menu](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/settings.png)_
 
 ¹ _Contrary to popular belief, scaling is not a part of the functionality of the ANA or the HANA chip — rather, it appears to be performed by the display controller component of the ATI Avivo system that was implemented in the highly experimental R400-based Xenos GPU — however, correct us if we’re wrong!_
 
@@ -83,23 +85,23 @@ _(FXAA comparison screenshots taken at different game frames, in-game animation 
 
 ![No FXAA — Halo 3, no in-game AA, upscaled from 1152x640 to 1280x720 with FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fxaa_halo3_off.jpg)
 
-_No FXAA — Halo 3, no in-game AA, upscaled from 1152x640 to 1280x720 with FSR_
+_[No FXAA — Halo 3, no in-game AA, upscaled from 1152x640 to 1280x720 with FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fxaa_halo3_off.jpg)_
 
 ![FXAA normal quality — Halo 3, no in-game AA, upscaled from 1152x640 to 1280x720 with FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fxaa_halo3_normal.jpg)
 
-_FXAA normal quality — Halo 3, no in-game AA, upscaled from 1152x640 to 1280x720 with FSR_
+_[FXAA normal quality — Halo 3, no in-game AA, upscaled from 1152x640 to 1280x720 with FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fxaa_halo3_normal.jpg)_
 
 ![FXAA extreme quality — Halo 3, no in-game AA, upscaled from 1152x640 to 1280x720 with FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fxaa_halo3_extreme.jpg)
 
-_FXAA extreme quality — Halo 3, no in-game AA, upscaled from 1152x640 to 1280x720 with FSR_
+_[FXAA extreme quality — Halo 3, no in-game AA, upscaled from 1152x640 to 1280x720 with FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fxaa_halo3_extreme.jpg)_
 
 ![No FXAA — the building has a jagged shadow — Sonic the Hedgehog, 2x MSAA, 1280x720, no scaling/sharpening](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fxaa_sonic_off.jpg)
 
-_No FXAA — notice the jagged shadow of the building — Sonic the Hedgehog, 2x MSAA, 1280x720, no scaling/sharpening_
+_[No FXAA — notice the jagged shadow of the building — Sonic the Hedgehog, 2x MSAA, 1280x720, no scaling/sharpening](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fxaa_sonic_off.jpg)_
 
 ![FXAA extreme quality — the shadow aliasing is gone now — Sonic the Hedgehog, 2x MSAA, 1280x720, no scaling/sharpening](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fxaa_sonic_on.jpg)
 
-_FXAA extreme quality — the shadow aliasing is gone now — Sonic the Hedgehog, 2x MSAA, 1280x720, no scaling/sharpening_
+_[FXAA extreme quality — the shadow aliasing is gone now — Sonic the Hedgehog, 2x MSAA, 1280x720, no scaling/sharpening](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fxaa_sonic_on.jpg)_
 
 _Note: FXAA is currently available only in the Direct3D 12-based GPU emulation backend in Xenia. As of January 2022, the Vulkan-based backend is unmaintained and uses the legacy architecture not including the emulation improvements present in the Direct3D 12-based GPU emulation implementation. On Vulkan, FXAA will be available in Xenia when the old Vulkan backend is replaced with the new emulation logic based on the code used in the Direct3D 12 backend. All other effects added in this update are applied on the window presentation side, which was fully rewritten, so they’re available on both backends._
 
@@ -119,19 +121,19 @@ CAS is able to sharpen the image **at the original resolution**, when **downscal
 
 ![No CAS — the image is slightly blurred due to the upscaling done by the game outside the control of the emulator — Call of Duty 4: Modern Warfare, 2x MSAA, upscaled from 1024x600 to 1280x720 by the game, extreme quality FXAA](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/cas_cod4_off.jpg)
 
-_No CAS — the image is slightly blurred due to the upscaling done by the game outside the control of the emulator — Call of Duty 4: Modern Warfare, 2x MSAA, upscaled from 1024x600 to 1280x720 by the game, extreme quality FXAA_
+_[No CAS — the image is slightly blurred due to the upscaling done by the game outside the control of the emulator — Call of Duty 4: Modern Warfare, 2x MSAA, upscaled from 1024x600 to 1280x720 by the game, extreme quality FXAA](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/cas_cod4_off.jpg)_
 
 ![CAS, additional sharpness 0.5 — sharper and more consistent surface details — Call of Duty 4: Modern Warfare, 2x MSAA, upscaled from 1024x600 to 1280x720 by the game, extreme quality FXAA](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/cas_cod4_on.jpg)
 
-_CAS, additional sharpness 0.5 — sharper and more consistent surface details — Call of Duty 4: Modern Warfare, 2x MSAA, upscaled from 1024x600 to 1280x720 by the game, extreme quality FXAA_
+_[CAS, additional sharpness 0.5 — sharper and more consistent surface details — Call of Duty 4: Modern Warfare, 2x MSAA, upscaled from 1024x600 to 1280x720 by the game, extreme quality FXAA](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/cas_cod4_on.jpg)_
 
 ![No CAS — Banjo-Kazooie, 4x MSAA, 1280x720, normal quality FXAA](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/cas_bk_off.jpg)
 
-_No CAS — Banjo-Kazooie, 4x MSAA, 1280x720, normal quality FXAA_
+_[No CAS — Banjo-Kazooie, 4x MSAA, 1280x720, normal quality FXAA](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/cas_bk_off.jpg)_
 
 ![CAS, additional sharpness 1.0 — more cartoon-like visuals with low-resolution textures — Banjo-Kazooie, 4x MSAA, 1280x720, normal quality FXAA](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/cas_bk_on.jpg)
 
-_CAS, additional sharpness 1.0 — more cartoon-like visuals with low-resolution textures — Banjo-Kazooie, 4x MSAA, 1280x720, normal quality FXAA_
+_[CAS, additional sharpness 1.0 — more cartoon-like visuals with low-resolution textures — Banjo-Kazooie, 4x MSAA, 1280x720, normal quality FXAA](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/cas_bk_on.jpg)_
 
 ## AMD FidelityFX Super Resolution 1.0 — FSR
 
@@ -169,35 +171,35 @@ FSR is especially **helpful if actual internal resolution scaling can’t be use
 
 ![No FSR — Halo 3, no in-game AA, extreme quality FXAA, 1152x640 bilinear-stretched to 2560x1440](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_halo3_off.jpg)
 
-_No FSR — Halo 3, no in-game AA, extreme quality FXAA, 1152x640 bilinear-stretched to 2560x1440_
+_[No FSR — Halo 3, no in-game AA, extreme quality FXAA, 1152x640 bilinear-stretched to 2560x1440](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_halo3_off.jpg)_
 
 ![FSR — Halo 3, no in-game AA, extreme quality FXAA, 1152x640 upscaled to 2304x1280 and then to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_halo3_on.jpg)
 
-_FSR — Halo 3, no in-game AA, extreme quality FXAA, 1152x640 upscaled to 2304x1280 and then to 2560x1440 by FSR_
+_[FSR — Halo 3, no in-game AA, extreme quality FXAA, 1152x640 upscaled to 2304x1280 and then to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_halo3_on.jpg)_
 
 ![No FSR — Banjo-Kazooie: Nuts & Bolts, 2x MSAA, extreme quality FXAA, 1280x720 bilinear-stretched to 2560x1440](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_bknb_off.jpg)
 
-_No FSR — Banjo-Kazooie: Nuts & Bolts, 2x MSAA, extreme quality FXAA, 1280x720 bilinear-stretched to 2560x1440_
+_[No FSR — Banjo-Kazooie: Nuts & Bolts, 2x MSAA, extreme quality FXAA, 1280x720 bilinear-stretched to 2560x1440](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_bknb_off.jpg)_
 
 ![FSR — Banjo-Kazooie: Nuts & Bolts, 2x MSAA, extreme quality FXAA, 1280x720 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_bknb_on.jpg)
 
-_FSR — Banjo-Kazooie: Nuts & Bolts, 2x MSAA, extreme quality FXAA, 1280x720 upscaled to 2560x1440 by FSR_
+_[FSR — Banjo-Kazooie: Nuts & Bolts, 2x MSAA, extreme quality FXAA, 1280x720 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_bknb_on.jpg)_
 
 ![No FSR — Viva Piñata, 2x MSAA, extreme quality FXAA, 1280x720 bilinear-stretched to 2560x1440](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_vp_off.jpg)
 
-_No FSR — Viva Piñata, 2x MSAA, extreme quality FXAA, 1280x720 bilinear-stretched to 2560x1440_
+_[No FSR — Viva Piñata, 2x MSAA, extreme quality FXAA, 1280x720 bilinear-stretched to 2560x1440](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_vp_off.jpg)_
 
 ![FSR, sharpness reduction 1.0 — Viva Piñata, 2x MSAA, extreme quality FXAA, 1280x720 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_vp_on.jpg)
 
-_FSR, sharpness reduction 1.0 — Viva Piñata, 2x MSAA, extreme quality FXAA, 1280x720 upscaled to 2560x1440 by FSR_
+_[FSR, sharpness reduction 1.0 — Viva Piñata, 2x MSAA, extreme quality FXAA, 1280x720 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_vp_on.jpg)_
 
 ![No FSR — Mirror’s Edge, 2x MSAA, extreme quality FXAA, 1280x720 bilinear-stretched to 2560x1440](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_me_off.jpg)
 
-_No FSR — Mirror’s Edge, 2x MSAA, extreme quality FXAA, 1280x720 bilinear-stretched to 2560x1440_
+_[No FSR — Mirror’s Edge, 2x MSAA, extreme quality FXAA, 1280x720 bilinear-stretched to 2560x1440](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_me_off.jpg)_
 
 ![FSR — Mirror’s Edge, 2x MSAA, extreme quality FXAA, 1280x720 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_me_on.jpg)
 
-_FSR — Mirror’s Edge, 2x MSAA, extreme quality FXAA, 1280x720 upscaled to 2560x1440 by FSR_
+_[FSR — Mirror’s Edge, 2x MSAA, extreme quality FXAA, 1280x720 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/fsr_me_on.jpg)_
 
 The negative texture LOD biasing (or, in case of different horizontal and vertical scales, texture coordinate gradient scaling) that is recommended by the developers of FSR for restoring the details lost due to texture filtering, however, has not been implemented in Xenia as of this update. It would require architecturally pretty complex feedback from host image presentation to texture fetching in the emulation logic, and may cause unwanted side effects if game shaders treat texture mipmaps in a special way. But the primary reason is that there is already a substantial amount of shading aliasing in games, especially in motion, and that sometimes causes a dissonance between clearly-defined temporally-coherent object shapes and noisy surfaces — and unlike more modern times, very few games in the Xbox 360 library contain a temporal anti-aliasing (TAA) solution to eliminate this kind of aliasing. However, texture coordinate gradient adjustment may be something to experiment with in the future.
 
@@ -229,29 +231,27 @@ Rendering resolution scaling, though, is still a hack that games are completely 
 
 ![Halo 3 with 1x1 resolution scale, no in-game AA, extreme quality FXAA, 1152x640 upscaled to 2304x1280 and then to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_halo3_1x1.jpg)
 
-_Halo 3 with 1x1 resolution scale, no in-game AA, extreme quality FXAA, 1152x640 upscaled to 2304x1280 and then to 2560x1440 by FSR_
+_[Halo 3 with 1x1 resolution scale, no in-game AA, extreme quality FXAA, 1152x640 upscaled to 2304x1280 and then to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_halo3_1x1.jpg)_
 
 ![Halo 3 with 1x2 resolution scale, no in-game AA, extreme quality FXAA, 1152x1280 upscaled to 2304x1440 and then to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_halo3_2x1.jpg)
 
-_Halo 3 with 1x2 resolution scale, no in-game AA, extreme quality FXAA, 1152x1280 upscaled to 2304x1440 and then to 2560x1440 by FSR_
+_[Halo 3 with 1x2 resolution scale, no in-game AA, extreme quality FXAA, 1152x1280 upscaled to 2304x1440 and then to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_halo3_2x1.jpg)_
 
 ![Halo 3 with 2x2 resolution scale, no in-game AA, extreme quality FXAA, 2304x1280 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_halo3_2x2.jpg)
 
-_Halo 3 with 2x2 resolution scale, no in-game AA, extreme quality FXAA, 2304x1280 upscaled to 2560x1440 by FSR_
+_[Halo 3 with 2x2 resolution scale, no in-game AA, extreme quality FXAA, 2304x1280 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_halo3_2x2.jpg)_
 
 ![Banjo-Kazooie: Nuts & Bolts with 1x2 resolution scale, 2x MSAA, extreme quality FXAA, 1280x1440 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_bknb_1x2.jpg)
 
-_Banjo-Kazooie: Nuts & Bolts with 1x2 resolution scale, 2x MSAA, extreme quality FXAA, 1280x1440 upscaled to 2560x1440 by FSR_
+_[Banjo-Kazooie: Nuts & Bolts with 1x2 resolution scale, 2x MSAA, extreme quality FXAA, 1280x1440 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_bknb_1x2.jpg)_
 
 ![Viva Piñata with 1x2 resolution scale, 2x MSAA, extreme quality FXAA, 1280x1440 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_vp_1x2.jpg)
 
-_Viva Piñata with 1x2 resolution scale, 2x MSAA, extreme quality FXAA, 1280x1440 upscaled to 2560x1440 by FSR_
+_[Viva Piñata with 1x2 resolution scale, 2x MSAA, extreme quality FXAA, 1280x1440 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_vp_1x2.jpg)_
 
 ![Mirror’s Edge with 2x1 resolution scale, 2x MSAA, extreme quality FXAA, 2560x720 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_me_2x1.jpg)
 
-_Mirror’s Edge with 2x1 resolution scale, 2x MSAA, extreme quality FXAA, 2560x720 upscaled to 2560x1440 by FSR_
-
-_Images_
+_[Mirror’s Edge with 2x1 resolution scale, 2x MSAA, extreme quality FXAA, 2560x720 upscaled to 2560x1440 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/resolution_me_2x1.jpg)_
 
 ## 10 bits per channel precision and dithering
 
@@ -263,11 +263,11 @@ Compare the following screenshots of Halo 3 with brightness and contrast increas
 
 ![No dithering — highly visible banding in the sky, the menu background also has a striped pattern](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/dither_off.png)
 
-_No dithering — highly visible banding in the sky, the menu background also has a striped pattern_
+_[No dithering — highly visible banding in the sky, the menu background also has a striped pattern](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/dither_off.png)_
 
 ![Dithering enabled — the sky and the menu background are much smoother](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/dither_on.png)
 
-_Dithering enabled — the sky and the menu background are much smoother_
+_[Dithering enabled — the sky and the menu background are much smoother](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/dither_on.png)_
 
 ## Post-processing configuration variables
 
@@ -322,7 +322,7 @@ Dear ImGui overlays of the internal UI, such as the system input dialogs in game
 
 ![Xenia with 150% display scaling — Banjo-Kazooie: Nuts & Bolts, 2x MSAA, extreme quality FXAA, 1280x720 upscaled to 1920x1080 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/high_dpi.jpg)
 
-_Xenia with 150% display scaling — Banjo-Kazooie: Nuts & Bolts, 2x MSAA, extreme quality FXAA, 1280x720 upscaled to 1920x1080 by FSR_
+_[Xenia with 150% display scaling — Banjo-Kazooie: Nuts & Bolts, 2x MSAA, extreme quality FXAA, 1280x720 upscaled to 1920x1080 by FSR](/images/posts/2022-01-29-presenting-the-presentation-update-amd-fidelityfx-fsr-fxaa-cas-vrr/high_dpi.jpg)_
 
 **Drawing of Dear ImGui dialogs and the profiler is also now limited to the frame rate of the monitor** where most of the Xenia window is located, so it will not be occupying all the remaining GPU and CPU UI thread time trying to be performed at thousands of frames per second taking free computing resources from the game. On operating systems where the UI thread paint event doesn’t have implicit frame rate limiting (on Windows, there’s no implicit limit), this has no noticeable effect on the latency of game frames — the wait is interrupted once a new game frame has arrived.
 
