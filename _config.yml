@@ -34,14 +34,14 @@ navigation:
       path: index.html
     - path: about.md
     - title: Quickstart
-      url: https://github.com/xenia-project/xenia/wiki/Quickstart
+      url: https://xenia.jp/wiki/faq/quickstart/
       icon: assignment
     - title: FAQ
-      url: https://github.com/xenia-project/xenia/wiki/faq
+      url: https://xenia.jp/wiki/faq
       icon: help
     - path: download.md
     - title: Roadmap
-      url: https://github.com/xenia-project/xenia/wiki/roadmap
+      url: https://xenia.jp/wiki/faq/roadmap/
       icon: event
     - title: Compatibility
       url: https://github.com/xenia-project/game-compatibility/issues
