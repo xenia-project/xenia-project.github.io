@@ -34,14 +34,14 @@ navigation:
       path: index.html
     - path: about.md
     - title: Quickstart
-      url: https://github.com/xenia-project/xenia/wiki/Quickstart
+      url: https://github.com/xenia-canary/xenia-canary/wiki/Quickstart
       icon: assignment
     - title: FAQ
-      url: https://github.com/xenia-project/xenia/wiki/faq
+      url: https://github.com/xenia-canary/xenia-canary/wiki/faq
       icon: help
     - path: download.md
     - title: Roadmap
-      url: https://github.com/xenia-project/xenia/wiki/roadmap
+      url: https://github.com/xenia-canary/xenia-canary/wiki/roadmap
       icon: event
     - title: Compatibility
       url: https://github.com/xenia-project/game-compatibility/issues
@@ -52,9 +52,9 @@ navigation:
     - title: Discord
       url: https://discord.gg/Q9mxZf9
       icon: message
-    - title: /r/xenia
-      url: https://www.reddit.com/r/xenia
-      icon: forum
+#    - title: /r/xenia
+#      url: https://www.reddit.com/r/xenia
+#      icon: forum
     - title: YouTube
       url: https://www.youtube.com/channel/UC6bJhkUUHE18HVG2mpbygSQ
       icon: videocam
@@ -83,3 +83,6 @@ artifacts:
     - name: master
       title: master
       download_url: "https://github.com/xenia-project/release-builds-windows/releases/latest/download/xenia_master.zip"
+    - name: canary
+      title: canary
+      download_url: "https://github.com/xenia-canary/xenia-canary/releases/download/experimental/xenia_canary.zip"
