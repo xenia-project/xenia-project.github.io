@@ -85,4 +85,4 @@ artifacts:
       download_url: "https://github.com/xenia-project/release-builds-windows/releases/latest/download/xenia_master.zip"
     - name: canary
       title: canary
-      download_url: "https://github.com/xenia-canary/xenia-canary/releases/download/experimental/xenia_canary.zip"
+      download_url: "https://github.com/xenia-canary/xenia-canary-releases/releases/latest/download/xenia_canary_windows.zip"
