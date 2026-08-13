@@ -15,7 +15,7 @@ description: >
   games on modern PCs.
 baseurl:
 url: "https://xenia.jp"
-github_username:  xenia-project
+github_username:  xenia-canary
 patreon_username: xenia_project
 twitter_username: xeniaproject
 discord_invite: Q9mxZf9
@@ -44,8 +44,9 @@ navigation:
       url: https://github.com/xenia-canary/xenia-canary/wiki/roadmap
       icon: event
     - title: Compatibility
-      url: https://github.com/xenia-project/game-compatibility/issues
+      url: https://github.com/xenia-canary/game-compatibility/issues
       icon: insert_chart
+    - path: settings.md
     - path: gallery.html
   - title: Community
     pages:
@@ -64,25 +65,40 @@ navigation:
   - title: Development
     pages:
     - title: Building
-      url: https://github.com/xenia-project/xenia/blob/master/docs/building.md
+      url: https://github.com/xenia-canary/xenia-canary/blob/canary_experimental/docs/building.md
       icon: build
     - title: Source Code
-      url: https://github.com/xenia-project/xenia
+      url: https://github.com/xenia-canary/xenia-canary
       icon: code
     - title: Issues
-      url: https://github.com/xenia-project/xenia/issues
+      url: https://github.com/xenia-canary/xenia-canary/issues
       icon: bug_report
 #    - title: Buildbot
 #      url: https://build.xenia.jp/waterfall
 #      icon: settings_system_daydream
 
 artifacts:
-  - title: Windows 7+ x64 (Direct3D 12 or Vulkan on Windows 10, Vulkan on Windows 7+)
+  - title: Windows 10+ x64
     icon: windows
     branches:
     - name: master
-      title: master
+      title: master (inactive)
       download_url: "https://github.com/xenia-project/release-builds-windows/releases/latest/download/xenia_master.zip"
     - name: canary
       title: canary
-      download_url: "https://github.com/xenia-canary/xenia-canary-releases/releases/latest/download/xenia_canary_windows.zip"
+      download_url: "https://github.com/xenia-canary/xenia-canary/releases/latest/download/xenia_canary_windows.7z"
+    - name: netplay
+      title: netplay
+      download_url: "https://github.com/AdrianCassar/xenia-canary/releases/latest"
+    - name: edge
+      title: edge
+      download_url: "https://github.com/has207/xenia-edge/releases/latest"
+  - title: Linux
+    icon: linux
+    branches:
+    - name: canary
+      title: canary
+      download_url: "https://github.com/xenia-canary/xenia-canary/releases/latest/download/xenia_canary_linux.AppImage"
+    - name: edge
+      title: edge
+      download_url: "https://github.com/has207/xenia-edge/releases/latest"

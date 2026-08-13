@@ -1,17 +1,7 @@
-* [Install Ruby 2.2+ and DevKit](https://rubyinstaller.org/downloads).
-* `gem update --system`
-* Extract DevKit
-* `ruby dk.rb init`
-* `ruby dk.rb install`
-* `gem install bundler`
-
-From the repository root:
-
-```
-bundle install
-bundle exec jekyll serve
-```
-
 Theme and such from: https://www.getmdl.io/
 
 Icons from: https://material.io/resources/icons/?style=baseline
+
+From the repository root:
+
+Follow this [guide](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll) provided by Github Docs to build locally.

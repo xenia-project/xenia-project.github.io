@@ -5,12 +5,11 @@ icon: info
 permalink: /about/
 ---
 
-* foo
-{:toc}
+## About
 
-## System Requirements
+### System Requirements
 
-See [here](/faq/#system-requirements).
+See [here](https://github.com/xenia-canary/xenia-canary/wiki/Quickstart#system-requirements).
 
 <!--## Overview
 
@@ -41,6 +40,6 @@ games to play I'm really just hacking to have fun.
 
 ## Team
 
-Contributors can be seen [here on GitHub](https://github.com/xenia-project/xenia/graphs/contributors).
+Contributors can be seen [here](https://github.com/xenia-project/xenia/graphs/contributors) and [here](https://github.com/xenia-canary/xenia-canary/graphs/contributors?from=1%2F27%2F2024).
 
 <!--TODO: auto generate a list from API.-->
